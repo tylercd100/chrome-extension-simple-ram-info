@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Options</title>
+    <link rel='stylesheet' href='libs/spectrum.css' />
+    <style>
+      label { margin-left: 0px }
+    </style>
+  </head>
+  <body>
+    <h1>Simple Ram Info</h1>
+    <form>
+      <p>
+        Background Color<br>
+        <input class="spectrum-color-picker" type="text" style="width:150px;" id="background_color" />
+      </p>
+      <p>
+        Text Color<br>
+        <input class="spectrum-color-picker" type="text" style="width:150px;" id="text_color" />
+      </p>
+      <!-- <p>
+        Text Size (Pixels)<br>
+        <input type="number" style="width:150px;" id="text_size" />
+      </p> -->
+      <p>
+        Refresh Rate (Milliseconds)<br>
+        <input type="number" style="width:150px;" id="refresh_rate" />
+      </p>
+      <p><input type="submit" value="Save"></p>
+    </form>
+    <script src="libs/jquery-2.1.4.min.js"></script>
+    <script src='libs/spectrum.js'></script>
+    <script src="options.js"></script>
+  </body>
+</html>
