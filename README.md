@@ -5,6 +5,6 @@ You can find it on the chrome web store [here](https://chrome.google.com/webstor
 
 Supports displaying values greater than 10GB.
 
-Version 1.1.0
+##### Version 1.1.0 #####
 * Added support for custom colors
 * Can change refresh interval
